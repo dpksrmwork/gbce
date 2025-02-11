@@ -3,6 +3,8 @@ from datetime import datetime, timedelta
 from fastapi import HTTPException
 from app.src.models.stock import Stock
 from app.src.models.trade import Trade
+from app.src.utils.logger import logger
+
 
 DB_PATH = "gbc_exchange.db"
 
